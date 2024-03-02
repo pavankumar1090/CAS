@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-02T11:09:18 IST" name="Default suite" finished-at="2024-03-02T11:13:04 IST" duration-ms="225598">
+    <groups>
+    </groups>
+    <test started-at="2024-03-02T11:09:18 IST" name="Default test" finished-at="2024-03-02T11:13:04 IST" duration-ms="225598">
+      <class name="testclass.CAS_TEST">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testclass.CAS_TEST@31190526]" started-at="2024-03-02T11:09:18 IST" name="setup" finished-at="2024-03-02T11:09:44 IST" duration-ms="25480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="userdetails()[pri:1, instance:testclass.CAS_TEST@31190526]" started-at="2024-03-02T11:09:44 IST" name="userdetails" finished-at="2024-03-02T11:11:14 IST" duration-ms="90287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userdetails -->
+        <test-method signature="user_profile()[pri:2, instance:testclass.CAS_TEST@31190526]" started-at="2024-03-02T11:11:14 IST" name="user_profile" finished-at="2024-03-02T11:11:20 IST" duration-ms="5532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_profile -->
+        <test-method signature="excel()[pri:0, instance:testclass.CAS_TEST@31190526]" started-at="2024-03-02T11:11:20 IST" name="excel" finished-at="2024-03-02T11:12:51 IST" depends-on-methods="testclass.CAS_TEST.user_profile" duration-ms="91790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excel -->
+        <test-method signature="screenshot()[pri:0, instance:testclass.CAS_TEST@31190526]" started-at="2024-03-02T11:12:51 IST" name="screenshot" finished-at="2024-03-02T11:13:02 IST" depends-on-methods="testclass.CAS_TEST.excel" duration-ms="10529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="close_broswer()[pri:0, instance:testclass.CAS_TEST@31190526]" started-at="2024-03-02T11:13:02 IST" name="close_broswer" finished-at="2024-03-02T11:13:04 IST" duration-ms="1715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_broswer -->
+      </class> <!-- testclass.CAS_TEST -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
