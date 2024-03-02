@@ -1,6 +1,6 @@
 *****************************************************PROJECT DESCRIPTION*****************************************************************
 
-Problem Statement : Be Cognizant Home Page Header View 
+Problem Statement :Acronyms App Validation
 1.Login into Be.cognizant
 2.Verify the Username
 3.Click on the Company dropdown
